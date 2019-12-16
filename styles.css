@@ -3,33 +3,42 @@
     padding: 0px;
 }
 
-#octocat {
-    display: block;
-    width: 384px;
-    margin: 50px auto;
+header {
+    background-color: rgb(170, 196, 218);
+    color: white;
+    opacity: 70%;
+    text-align: center;
+    padding: 10px;
 }
 
 p {
     display: block;
-    width: 400px;
-    margin: 50px auto;
-    font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Star Jedi', Tahoma;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    color: silver;
 }
 
 h1 {
-    display: block;
-    width: 400px;
-    margin: 50px auto;
-    font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+    font-family: 'Star Jedi', Tahoma;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    color: silver;
 }
 
 h2 {
     display: block;
-    width: 400px;
+    width: 600px;
     margin: 50px auto;
-    font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+    font: 30px Monaco, "Tahoma", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+    text-align: center;
+    color: silver;
 }
 
 .back {
-    background: linear-gradient(180deg, white, #48D1CC, rgb(204, 204, 255));
+    background-image: url(https://ak2.picdn.net/shutterstock/videos/34195942/thumb/1.jpg);
 }
